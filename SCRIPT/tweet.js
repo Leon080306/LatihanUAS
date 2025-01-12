@@ -1,6 +1,5 @@
 function tweet() {
-    var textarea = document.getElementById("text");
-    var text = textarea.value;
+    var text = document.getElementById("text").value;
     var textbox = "<div class = 'textbox'>" + text + "</div>"
     if (text.length <= 140) {
         document.getElementById("container").innerHTML += textbox;
@@ -10,8 +9,7 @@ function tweet() {
     }
 }
 function checkLength() {
-    var textarea = document.getElementById("text");
-    var text = textarea.value;
+    var text = document.getElementById("text").value;
     if (text.length >= 140) {
         document.getElementById("inputerror").style.display = "inline"
     }
