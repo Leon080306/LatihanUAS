@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tweets</title>
+        <link rel="stylesheet" href="../CSS/tweet.css">
+        <link rel="stylesheet" href="../CSS/navfooter.css">
+    </head>
+    <body>
+        <nav>
+            <div>
+                <li><a href="index.html">Home</a></li>
+                <li id = "member"><a href="#">Members</a>
+                    <ul>
+                        <li><a href="#">Kim Chaewon</a></li>
+                        <li><a href="#">Sakura</a></li>
+                        <li><a href="#">Huh Yunjin</a></li>
+                        <li><a href="#">Kazuha</a></li>
+                        <li><a href="#">Hong EuncShae</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="tweet.html">Tweet..</a></li>
+            </div>
+        </nav>
+        <div id="container">
+            <div class='textbox'>
+                Ini adalah test tweet!
+            </div>
+        </div>
+        <form>
+            <span id="inputerror">Max 140</span>
+            <textarea  onkeydown = "checkLength()" id="text"></textarea>
+            <br>
+            <button type = "button" onclick = "tweet()">Tweet</button>
+        </form>
+        <footer>Made By Jonathan Farrel Lewi</footer>
+    </body>
+    <script src="../SCRIPT/tweet.js"></script>
+</html>

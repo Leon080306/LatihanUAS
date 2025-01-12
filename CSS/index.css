@@ -1,0 +1,72 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #edeadb;
+}
+#showContent {
+    background-color: #edeadb;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+}
+#content {
+    display: none;
+}
+article, #theme {
+    margin-left: 50px;
+}
+#header {
+    clear: left;
+}
+.image {
+    width: fit-content;
+    float: left;
+}
+.image img {
+    background-color: white;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 35px;
+    margin-right: 10px;
+}
+.image p {
+    margin: 0;
+    text-align: center;
+}
+footer {
+    clear: left;
+}
+#history {
+    margin-top: 150px;
+}
+article h2, article h3, article p {
+    margin: 0;
+}
+article p {
+    text-align: justify;
+    width: 98%;
+}
+#history2 {
+    margin-top: 100px;
+}
+#image2 {
+    float: right;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#history2 p {
+    margin-top: 20px;
+}
+#history3 {
+    margin-top: 100px;
+}
+#theme {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
